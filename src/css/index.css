@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', 'Roboto';
+  font-weight:300;
+}
+div {
+  position: relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  float:left;
+}
+#root { width: 100%; }
+.nomargin { margin:0; }
+.nopadding { padding:0; }
+.padding1em { padding:1em; }
+.input-group-addon {
+  background: #1c7ed6;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #1971c2;
+  padding: 6px 10px;
+  color:#fff;
+}
+.input-group-addon:hover {
+  background: #1971c2;
+  border: 1px solid #1864ab;
+  cursor:pointer;
+}
+.overVisible{
+  overflow:visible;
+}

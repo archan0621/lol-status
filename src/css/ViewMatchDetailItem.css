@@ -1,0 +1,40 @@
+.ViewMatchDetailItem {
+    float:left;
+    padding: 10px 0;
+    text-align:left;
+    border-bottom: 1px solid #ddd;
+}
+.ViewMatchDetailItem div h6 {
+    margin-top:10px;
+}
+
+.summonerName {
+    margin-top:10px;
+}
+.Win {
+    background:#d0ebff;
+    border-bottom: 1px solid #a5d8ff;
+}
+.Fail {
+    background:#ffe3e3;
+    border-bottom: 1px solid #ffc9c9;
+}
+.ViewMatchDetailItem div .Win {
+    margin-top:10px;
+    color: #fff;
+    background-color: #1971c2;
+}
+.ViewMatchDetailItem div .Fail {
+    margin-top:10px;
+    color: #fff;
+    background-color: #e03131;
+}
+.myState {
+   border:2px solid #15aabf;
+}
+.kdaState {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top:4px;
+}

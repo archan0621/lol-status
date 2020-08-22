@@ -1,0 +1,27 @@
+.gameList-area {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    border:1px solid #ddd;
+    margin-top:-1px;
+}
+.gameList-area:first-child {
+    margin-top:0;
+}
+
+.champLane {
+    width: 35px;
+    height: 26px;
+    left: calc(50% - 17.5px);
+}
+.champLaneName {
+    padding-top: 33px;
+    text-align:center;
+}
+
+
+.badge-secondary {
+    color:#ddd !important;
+    font-weight:500;
+}
+

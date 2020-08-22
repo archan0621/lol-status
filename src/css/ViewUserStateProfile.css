@@ -1,0 +1,80 @@
+.leftImgSection {
+    width:130px;
+    height:130px;
+    padding:12px;
+    margin-top:18px;
+    left:calc(50% - 65px);
+}
+.leftImgSection > img {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:auto;
+}
+.leftImgSection > img:first-child {
+    width:110px;
+    height:110px;
+    left: auto;
+    top: auto;
+}
+.leftImgSection > span {
+    position:absolute;
+    left: calc(50% - 22px);
+    bottom: 5px;
+    width:44px;
+    height:24px;
+    background:url(http://opgg-static.akamaized.net/images/site/summoner/bg-levelbox.png) no-repeat;
+    background-size:auto 100%;
+    color:#eabd56;
+    text-align: center;
+}
+.animateNumberAreaTitle {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.animateNumberArea {
+    position: relative;
+    width:100%;
+    height:65px;
+    overflow:hidden;
+}
+.card-title {
+    margin-top:7px;
+}
+
+.tierImg {
+    width:130px;
+    height:130px;
+    margin:0 auto;
+    margin-top:10px;
+    float:none;
+}
+.tierImg > img {
+    width:100%;
+    height:100%;
+    
+}
+.tierTextArea {
+    padding-top:13px;
+    padding-left:20px;
+    overflow: visible;
+    text-align:center;
+}
+.tierTextArea2 {
+    padding-left:20px;
+}
+
+.rightLeagueContent {
+    float:left;
+}
+.circularProgressbarStyle svg {
+    max-width:100px;
+    margin-top: 35px;
+}
+.commentText {
+    color:#1c7ed6;
+    line-height: 20px;
+    word-break: keep-all;
+    font-weight: 400;
+}

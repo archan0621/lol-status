@@ -1,0 +1,33 @@
+.topProfileStateWrapper {
+    width:100%;
+    padding:1em;
+}
+
+.preferWrap {
+    margin:0 auto;
+    float:none;
+    overflow: visible;
+    width:180px;
+    height:110px;
+}
+.preferChamp {
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    overflow:visible;
+}
+.preferLine {
+    overflow:visible;
+    float:right;
+    width:70px;
+    height:49px;
+    margin-top:10px;
+}
+.preferChamp > span , 
+.preferLine > span {
+    position:absolute;
+    bottom:-25px;
+    width: 120px;
+    left: calc(50% - 60px);
+}
+.preferLine > span { bottom:-35px }
